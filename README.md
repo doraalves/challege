@@ -1,4 +1,4 @@
-# Desafios de CSS
+# Desafios para estudo
 
 1. Desafio do CSS
     -> Ilustração de uma vela acesa
