@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Paises</title>
+</head>
+<body>
+    <div class="controls">
+        <h1>Desafio: Mini-app de países</h1>
+        <!-- filtro por nome -->
+        <input id="search" type="text" placeholder="Buscar país..." />
+    
+        <!-- alternar ordenação -->
+        <button id="sortBtn" data-order="desc">Ordenar por população ↓</button>
+    </div>
+    
+    <!-- lugar onde os países vão aparecer -->
+    <div id="countries"></div>
+    
+    <!-- mensagem de erro/feedback -->
+    <div id="message" class="error" aria-live="polite"></div>
+    
+    <!-- script vai vir depois -->
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
